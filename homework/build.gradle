@@ -1,0 +1,45 @@
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"        }
+    }
+    dependencies {
+    }
+}
+
+
+plugins {
+    id 'java'
+}
+
+apply plugin: 'java'
+compileJava.options.encoding = 'utf-8'
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+configurations {
+    testCompile
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.1'
+    //testImplementation 'org.testng:testng:7.1.0'
+    //testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    implementation 'org.seleniumhq.selenium:selenium-api:4.1.2'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.1.2'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '4.1.2'
+}
+
+test {
+    useJUnit()
+    //useJUnitPlatform()
+}
