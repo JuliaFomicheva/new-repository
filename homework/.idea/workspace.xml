@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca6aa96a-81f1-4faa-b658-a7c4fb08ffd7" name="Default Changelist" comment="AdminPanel&#10;menu navigation">
-      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/AlphabetOrder.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/MyThirdTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/ProductStikers.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/TestInExplorer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/AdminPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/AdminPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/MyFirstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -352,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645421772588</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="AlphabetOrder">
+      <created>1645782594876</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645782594876</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -371,7 +378,8 @@
     <MESSAGE value="MyFirstTest" />
     <MESSAGE value="MySecondTest&#10;Login for http://localhost/litecart/admin/" />
     <MESSAGE value="AdminPanel&#10;menu navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="AdminPanel&#10;menu navigation" />
+    <MESSAGE value="AlphabetOrder" />
+    <option name="LAST_COMMIT_MESSAGE" value="AlphabetOrder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

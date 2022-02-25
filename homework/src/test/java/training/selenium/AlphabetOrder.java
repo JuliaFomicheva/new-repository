@@ -34,8 +34,8 @@ public class AlphabetOrder {
 
         List<String> countries = new ArrayList<>();
         for (WebElement rowElement : rows) {
-            List<WebElement> TotalColumnCount = rowElement.findElements(By.xpath("td"));
-            WebElement column = TotalColumnCount.get(4);
+            List<WebElement> totalColumnCount = rowElement.findElements(By.xpath("td"));
+            WebElement column = totalColumnCount.get(4);
             countries.add(column.getText());
         }
         List<String> copyCountries = new ArrayList<>(countries);
@@ -50,8 +50,8 @@ public class AlphabetOrder {
 
         List<String> countries = new ArrayList<>();
         for (WebElement rowElement : rows) {
-            List<WebElement> TotalColumnCount = rowElement.findElements(By.xpath("td"));
-            WebElement column = TotalColumnCount.get(4);
+            List<WebElement> totalColumnCount = rowElement.findElements(By.xpath("td"));
+            WebElement column = totalColumnCount.get(4);
             countries.add(column.getText());
         }
         countries.add(0,"qwre");
