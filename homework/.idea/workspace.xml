@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca6aa96a-81f1-4faa-b658-a7c4fb08ffd7" name="Default Changelist" comment="AdminPanel&#10;menu navigation">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/CreateNewAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/AddNewProduct.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/Geozone.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/MyThirdTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/ProductStikers.java" afterDir="false" />
@@ -67,6 +66,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="255b7m3oAt35g48hF1MfofWBwZd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -81,7 +88,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.CreateNewAccount">
+  <component name="RunManager" selected="JUnit.AddNewProduct">
     <configuration name="AdminPanel.CheckInSite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -186,6 +193,16 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
+    </configuration>
+    <configuration name="AddNewProduct" type="JUnit" factoryName="JUnit">
+      <module name="homework.test" />
+      <option name="PACKAGE_NAME" value="training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="training.selenium.AddNewProduct" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="AdminPanel" type="JUnit" factoryName="JUnit">
       <module name="homework.test" />
@@ -330,6 +347,7 @@
       <item itemvalue="JUnit.AlphabetOrder" />
       <item itemvalue="JUnit.Geozone" />
       <item itemvalue="JUnit.CreateNewAccount" />
+      <item itemvalue="JUnit.AddNewProduct" />
       <item itemvalue="JUnit.MyFirstTest" />
       <item itemvalue="JUnit.AdminPanel" />
       <item itemvalue="JUnit.ProductStikers" />
@@ -392,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645784781060</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Crete New account and login">
+      <created>1645959412802</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645959412802</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,7 +438,8 @@
     <MESSAGE value="AdminPanel&#10;menu navigation" />
     <MESSAGE value="AlphabetOrder" />
     <MESSAGE value="grammar" />
-    <option name="LAST_COMMIT_MESSAGE" value="grammar" />
+    <MESSAGE value="Crete New account and login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Crete New account and login" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -432,6 +458,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/training/selenium/Geozone.java</url>
           <line>27</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/training/selenium/AddNewProduct.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/training/selenium/AddNewProduct.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

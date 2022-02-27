@@ -1,0 +1,97 @@
+package training.selenium;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import static org.openqa.selenium.By.cssSelector;
+import static org.openqa.selenium.By.name;
+
+
+
+public class AddNewProduct {
+    private WebDriver driver;
+    private WebElement searchField;
+
+    @Before
+    public void start() {
+        driver = new ChromeDriver();
+        driver.navigate().to("http://localhost/litecart/admin/?app=catalog&doc=catalog");
+        driver.findElement(name("username")).sendKeys("admin");
+        driver.findElement(name("password")).sendKeys("admin");
+        driver.findElement(name("login")).click();
+    }
+
+    @Test
+    public void AddNewProduct() {
+        driver.navigate().to("http://localhost/litecart/admin/?category_id=0&app=catalog&doc=edit_product");
+        driver.findElement(By.name("name[en]")).sendKeys("doggy");
+        driver.findElement(By.name("code")).sendKeys("12345");
+        driver.findElement(By.cssSelector("#tab-general > table > tbody > tr:nth-child(4) > td > div > table > tbody > tr:nth-child(2) > td:nth-child(1) > input[type=checkbox]")).click();
+        driver.findElement(By.cssSelector("#tab-general > table > tbody > tr:nth-child(4) > td > div > table > tbody > tr:nth-child(1) > td:nth-child(1) > input[type=checkbox]")).click();
+        driver.findElement(By.cssSelector("#tab-general > table > tbody > tr:nth-child(7) > td > div > table > tbody > tr:nth-child(4) > td:nth-child(1) > input[type=checkbox]")).click();
+        driver.findElement(By.name("quantity")).clear();
+        driver.findElement(By.name("quantity")).click();
+        driver.findElement(By.name("quantity")).sendKeys("5");
+        driver.findElement(By.name("sold_out_status_id")).click();
+        //searchField.sendKeys("selenium" + Keys.ENTER);
+        driver.findElement(By.cssSelector("#tab-general > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(4) > select > option:nth-child(3)")).click();
+        driver.findElement(By.name("new_images[]")).sendKeys("C:\\Users\\fomichevaiv\\Desktop\\selenium\\unnamed.jpg");
+        driver.findElement(By.name("date_valid_from")).sendKeys("27022022");
+        driver.findElement(By.name("date_valid_to")).sendKeys("27022023");
+        driver.findElement(By.name("save")).click();
+    }
+
+    @Test
+    public void Information() {
+
+        driver.navigate().to("http://localhost/litecart/admin/?category_id=0&app=catalog&doc=edit_product#tab-information");
+        driver.findElement(By.name("manufacturer_id")).click();
+        driver.findElement(By.cssSelector("#tab-information > table > tbody > tr:nth-child(1) > td > select > option:nth-child(2)")).click();
+        driver.findElement(By.name("keywords")).sendKeys("123456789");
+        driver.findElement(By.name("short_description[en]")).sendKeys("helohelohelo");
+        driver.findElement(By.className("trumbowyg-editor")).sendKeys("heloheloheloHowAreYou");
+        driver.findElement(By.name("head_title[en]")).sendKeys("GoodProduct");
+        driver.findElement(By.name("meta_description[en]")).sendKeys("GoodProductForHomeHelpful");
+        driver.findElement(By.cssSelector("#content > form > p > span > button:nth-child(1)")).click();
+    }
+
+    @Test
+    public void Prices() {
+        driver.navigate().to("http://localhost/litecart/admin/?category_id=0&app=catalog&doc=edit_product#tab-prices");
+        driver.findElement(By.name("purchase_price")).sendKeys("100");
+        driver.findElement(By.name("purchase_price_currency_code")).click();
+        driver.findElement(By.cssSelector("#tab-prices > table:nth-child(2) > tbody > tr > td > select > option:nth-child(2)")).click();
+        driver.findElement(By.name("gross_prices[USD]")).sendKeys("1");
+        driver.findElement(By.name("gross_prices[EUR]")).sendKeys("0.5");
+        driver.findElement(By.name("save")).click();
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
