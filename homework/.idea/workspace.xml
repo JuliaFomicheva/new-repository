@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca6aa96a-81f1-4faa-b658-a7c4fb08ffd7" name="Default Changelist" comment="AdminPanel&#10;menu navigation">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/CreateNewAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/Geozone.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/MyThirdTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/ProductStikers.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/TestInExplorer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/AdminPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/AdminPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/AlphabetOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/AlphabetOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/MyFirstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +81,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.AlphabetOrder">
+  <component name="RunManager" selected="JUnit.CreateNewAccount">
     <configuration name="AdminPanel.CheckInSite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -203,6 +207,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CreateNewAccount" type="JUnit" factoryName="JUnit">
+      <module name="homework.test" />
+      <option name="PACKAGE_NAME" value="training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="training.selenium.CreateNewAccount" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Geozone" type="JUnit" factoryName="JUnit">
+      <module name="homework.test" />
+      <option name="PACKAGE_NAME" value="training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="training.selenium.Geozone" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyFirstTest" type="JUnit" factoryName="JUnit">
       <module name="homework.test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -302,7 +326,10 @@
       <item itemvalue="Gradle.MyFirstTest" />
       <item itemvalue="Gradle.AdminPanel.EnterToSite" />
       <item itemvalue="Gradle.AdminPanel.CheckInSite" />
+      <item itemvalue="Gradle.AlphabetOrder.rainyAlphabet" />
       <item itemvalue="JUnit.AlphabetOrder" />
+      <item itemvalue="JUnit.Geozone" />
+      <item itemvalue="JUnit.CreateNewAccount" />
       <item itemvalue="JUnit.MyFirstTest" />
       <item itemvalue="JUnit.AdminPanel" />
       <item itemvalue="JUnit.ProductStikers" />
@@ -310,7 +337,6 @@
       <item itemvalue="JUnit.MyThirdTest" />
       <item itemvalue="JUnit.TestInExplorer" />
       <item itemvalue="TestNG.MySecondTest" />
-      <item itemvalue="Gradle.AlphabetOrder.rainyAlphabet" />
     </list>
     <recent_temporary>
       <list>
@@ -359,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645782594876</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="grammar">
+      <created>1645784781060</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645784781060</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -379,7 +412,8 @@
     <MESSAGE value="MySecondTest&#10;Login for http://localhost/litecart/admin/" />
     <MESSAGE value="AdminPanel&#10;menu navigation" />
     <MESSAGE value="AlphabetOrder" />
-    <option name="LAST_COMMIT_MESSAGE" value="AlphabetOrder" />
+    <MESSAGE value="grammar" />
+    <option name="LAST_COMMIT_MESSAGE" value="grammar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -393,6 +427,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/training/selenium/ProductStikers.java</url>
           <line>23</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/training/selenium/Geozone.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
