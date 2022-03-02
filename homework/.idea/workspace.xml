@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca6aa96a-81f1-4faa-b658-a7c4fb08ffd7" name="Default Changelist" comment="AdminPanel&#10;menu navigation">
-      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/AddNewProduct.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/Geozone.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/MyThirdTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/ProductStikers.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/TestInExplorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/unnamed.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/AddNewProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/AddNewProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/AdminPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/AdminPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/AlphabetOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/AlphabetOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/MyFirstTest.java" afterDir="false" />
@@ -88,13 +89,18 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\new-repository\homework\src\test\resources" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.AddNewProduct">
-    <configuration name="AdminPanel.CheckInSite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
+    <configuration name="AddNewProduct.AddNewProduct" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;training.selenium.AdminPanel.CheckInSite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;training.selenium.AddNewProduct.AddNewProduct&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -110,12 +116,54 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AdminPanel.EnterToSite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
+    <configuration name="AddNewProduct.Information" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;training.selenium.AdminPanel.EnterToSite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;training.selenium.AddNewProduct.Information&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AddNewProduct.Prices" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;training.selenium.AddNewProduct.Prices&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AdminPanel.CheckInSite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;training.selenium.AdminPanel.CheckInSite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -148,48 +196,6 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MyFirstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;training.selenium.MyFirstTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="homework [testClasses]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="testClasses" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -339,9 +345,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.homework [testClasses]" />
-      <item itemvalue="Gradle.MyFirstTest" />
-      <item itemvalue="Gradle.AdminPanel.EnterToSite" />
       <item itemvalue="Gradle.AdminPanel.CheckInSite" />
       <item itemvalue="Gradle.AlphabetOrder.rainyAlphabet" />
       <item itemvalue="JUnit.AlphabetOrder" />
@@ -355,14 +358,17 @@
       <item itemvalue="JUnit.MyThirdTest" />
       <item itemvalue="JUnit.TestInExplorer" />
       <item itemvalue="TestNG.MySecondTest" />
+      <item itemvalue="Gradle.AddNewProduct.Information" />
+      <item itemvalue="Gradle.AddNewProduct.Prices" />
+      <item itemvalue="Gradle.AddNewProduct.AddNewProduct" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AddNewProduct.AddNewProduct" />
+        <item itemvalue="Gradle.AddNewProduct.Prices" />
+        <item itemvalue="Gradle.AddNewProduct.Information" />
         <item itemvalue="Gradle.AlphabetOrder.rainyAlphabet" />
         <item itemvalue="Gradle.AdminPanel.CheckInSite" />
-        <item itemvalue="Gradle.AdminPanel.EnterToSite" />
-        <item itemvalue="Gradle.MyFirstTest" />
-        <item itemvalue="Gradle.homework [testClasses]" />
       </list>
     </recent_temporary>
   </component>
@@ -417,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645959412802</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="AddNewProduct&#10;product adding script">
+      <created>1645992293902</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645992293902</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,7 +452,8 @@
     <MESSAGE value="AlphabetOrder" />
     <MESSAGE value="grammar" />
     <MESSAGE value="Crete New account and login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crete New account and login" />
+    <MESSAGE value="AddNewProduct&#10;product adding script" />
+    <option name="LAST_COMMIT_MESSAGE" value="AddNewProduct&#10;product adding script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -461,13 +475,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/training/selenium/AddNewProduct.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="11" />
+          <line>48</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/training/selenium/AddNewProduct.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="12" />
+          <line>79</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/training/selenium/AddNewProduct.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
