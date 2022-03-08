@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca6aa96a-81f1-4faa-b658-a7c4fb08ffd7" name="Default Changelist" comment="AdminPanel&#10;menu navigation">
+      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/DucksSticers.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/Geozone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/Lesson9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/LessonEight.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/MyThirdTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/ProductStikers.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/TestInExplorer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/unnamed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/WorkWithTheBasket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/AddNewProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/AddNewProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/AdminPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/AdminPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/AlphabetOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/AlphabetOrder.java" afterDir="false" />
@@ -158,12 +162,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AdminPanel.CheckInSite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
+    <configuration name="AlphabetOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;training.selenium.AdminPanel.CheckInSite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;training.selenium.AlphabetOrder&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -250,6 +254,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LessonEight" type="JUnit" factoryName="JUnit">
+      <module name="homework.test" />
+      <option name="PACKAGE_NAME" value="training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="training.selenium.LessonEight" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyFirstTest" type="JUnit" factoryName="JUnit">
       <module name="homework.test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -302,6 +316,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorkWithTheBasket" type="JUnit" factoryName="JUnit">
+      <module name="homework.test" />
+      <option name="PACKAGE_NAME" value="training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="training.selenium.WorkWithTheBasket" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MySecondTest" type="TestNG" nameIsGenerated="true">
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -345,12 +369,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.AdminPanel.CheckInSite" />
       <item itemvalue="Gradle.AlphabetOrder.rainyAlphabet" />
+      <item itemvalue="Gradle.AddNewProduct.Information" />
+      <item itemvalue="Gradle.AddNewProduct.Prices" />
+      <item itemvalue="Gradle.AddNewProduct.AddNewProduct" />
+      <item itemvalue="Gradle.AlphabetOrder" />
       <item itemvalue="JUnit.AlphabetOrder" />
+      <item itemvalue="JUnit.LessonEight" />
       <item itemvalue="JUnit.Geozone" />
       <item itemvalue="JUnit.CreateNewAccount" />
       <item itemvalue="JUnit.AddNewProduct" />
+      <item itemvalue="JUnit.WorkWithTheBasket" />
       <item itemvalue="JUnit.MyFirstTest" />
       <item itemvalue="JUnit.AdminPanel" />
       <item itemvalue="JUnit.ProductStikers" />
@@ -358,17 +387,14 @@
       <item itemvalue="JUnit.MyThirdTest" />
       <item itemvalue="JUnit.TestInExplorer" />
       <item itemvalue="TestNG.MySecondTest" />
-      <item itemvalue="Gradle.AddNewProduct.Information" />
-      <item itemvalue="Gradle.AddNewProduct.Prices" />
-      <item itemvalue="Gradle.AddNewProduct.AddNewProduct" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AlphabetOrder" />
         <item itemvalue="Gradle.AddNewProduct.AddNewProduct" />
         <item itemvalue="Gradle.AddNewProduct.Prices" />
         <item itemvalue="Gradle.AddNewProduct.Information" />
         <item itemvalue="Gradle.AlphabetOrder.rainyAlphabet" />
-        <item itemvalue="Gradle.AdminPanel.CheckInSite" />
       </list>
     </recent_temporary>
   </component>
@@ -430,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645992293902</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add new product&#10;made corrections">
+      <created>1646244579138</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1646244579138</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -453,7 +486,8 @@
     <MESSAGE value="grammar" />
     <MESSAGE value="Crete New account and login" />
     <MESSAGE value="AddNewProduct&#10;product adding script" />
-    <option name="LAST_COMMIT_MESSAGE" value="AddNewProduct&#10;product adding script" />
+    <MESSAGE value="Add new product&#10;made corrections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new product&#10;made corrections" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -464,29 +498,24 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/training/selenium/ProductStikers.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/training/selenium/Geozone.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/training/selenium/AddNewProduct.java</url>
           <line>48</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/training/selenium/AddNewProduct.java</url>
-          <line>79</line>
+          <line>80</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/training/selenium/AddNewProduct.java</url>
           <line>61</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/training/selenium/AddNewProduct.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

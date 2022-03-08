@@ -68,7 +68,7 @@ public class AddNewProduct {
         driver.findElement(By.name("gross_prices[EUR]")).sendKeys("0.5");
         driver.findElement(By.name("save")).click();
         driver.navigate().to("http://localhost/litecart/admin/?app=catalog&doc=catalog&category_id=1");
-        driver.findElement(By.cssSelector("#content > form > table > tbody > tr:nth-child(6) > td:nth-child(3) > a")).click();
+        driver.navigate().to("http://localhost/litecart/en/rubber-ducks-c-1/doggy-p-50");
 
 
 
