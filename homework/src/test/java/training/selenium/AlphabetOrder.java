@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.*;
 
+import static org.openqa.selenium.By.className;
 import static org.openqa.selenium.By.name;
 
 public class AlphabetOrder {
@@ -97,19 +98,25 @@ public class AlphabetOrder {
             //sa.assertEquals(listZonesNames, listZonesNameSort);
 
             //press Cancel;
-            List<WebElement> listButtons = driver.findElement(By.className("button-set")).findElements(By.cssSelector("button"));
-            for(WebElement button:listButtons){
-                if(button.getText().contains("Cancel")) {
-                    button.click();
-                    return;
-                }
-            }
+            //driver.findElement(className("cancel"));
+             pressButton("Cancel");
 
         }
     }
-
-
-
+    public void pressButton(String ButtonName) {
+        List<WebElement> listButtons = driver.findElement(By.className("button-set")).findElements(By.cssSelector("button"));
+        for(WebElement button:listButtons){
+            if(button.getText().contains(ButtonName)) {
+                button.click();
+                return;
+            }
+        }
+    }
+    @After
+    public void stop() {
+        driver.quit();
+        driver = null;
+    }
 
 }
 
