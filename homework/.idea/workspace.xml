@@ -7,14 +7,12 @@
     <list default="true" id="ca6aa96a-81f1-4faa-b658-a7c4fb08ffd7" name="Default Changelist" comment="AdminPanel&#10;menu navigation">
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/DucksSticers.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/Geozone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/Lesson9.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/LessonEight.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/MyThirdTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/ProductStikers.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/TestInExplorer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/WorkWithTheBasket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/AddNewProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/AddNewProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/AdminPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/AdminPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/AlphabetOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/AlphabetOrder.java" afterDir="false" />
@@ -244,6 +242,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DucksSticers" type="JUnit" factoryName="JUnit">
+      <module name="homework.test" />
+      <option name="PACKAGE_NAME" value="training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="training.selenium.DucksSticers" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Geozone" type="JUnit" factoryName="JUnit">
       <module name="homework.test" />
       <option name="PACKAGE_NAME" value="training.selenium" />
@@ -376,6 +384,7 @@
       <item itemvalue="Gradle.AlphabetOrder" />
       <item itemvalue="JUnit.AlphabetOrder" />
       <item itemvalue="JUnit.LessonEight" />
+      <item itemvalue="JUnit.DucksSticers" />
       <item itemvalue="JUnit.Geozone" />
       <item itemvalue="JUnit.CreateNewAccount" />
       <item itemvalue="JUnit.AddNewProduct" />
@@ -463,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646244579138</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added a link to the product">
+      <created>1646753784060</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1646753784060</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -487,7 +503,8 @@
     <MESSAGE value="Crete New account and login" />
     <MESSAGE value="AddNewProduct&#10;product adding script" />
     <MESSAGE value="Add new product&#10;made corrections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new product&#10;made corrections" />
+    <MESSAGE value="added a link to the product" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a link to the product" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -516,6 +533,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/training/selenium/AddNewProduct.java</url>
           <line>68</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/training/selenium/DucksSticers.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/training/selenium/DucksSticers.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

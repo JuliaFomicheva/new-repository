@@ -61,12 +61,55 @@ public class AlphabetOrder {
 
     }
 
+    @Test
+    public void checkGeoZones() {
+        List<WebElement> rowList = driver.findElements(By.className("row"));
+        List<String> listToCheck = new ArrayList<>();
+        String nameCountry;
+        List<String> listString = new ArrayList<>();
+        for(WebElement rowCurrent:rowList){
+            nameCountry = rowCurrent.findElements(By.cssSelector("td")).get(4).getText();
+            listString.add(nameCountry);
+            if (rowCurrent.findElements(By.cssSelector("td")).get(5).getText().contains("0") != true){
+                listToCheck.add(nameCountry);
+            }
+        }
 
-    @After
-    public void stop() {
-        driver.quit();
-        driver = null;
+
+        WebElement countryToCheck = null;
+        List<WebElement> listRowsZones;
+        List<String> listZonesNames;
+        List<String> listZonesNameSort;
+        for(String currentToCheck:listToCheck){
+            countryToCheck = driver.findElement(By.linkText(currentToCheck));
+            countryToCheck.click();
+            WebElement tableZones = driver.findElement(By.className("dataTable"));
+            listRowsZones = tableZones.findElements(By.cssSelector("tr"));
+            listRowsZones.remove(0);
+            listRowsZones.remove(listRowsZones.size()-1);
+            listZonesNames = new ArrayList<>();
+            for (WebElement rowZonesCurrent:listRowsZones){
+                listZonesNames.add(rowZonesCurrent.findElements(By.cssSelector("td")).get(2).getText());
+            }
+            listZonesNameSort = new ArrayList<>(listZonesNames);
+            Collections.sort(listZonesNameSort);
+            Assert.assertEquals(listZonesNameSort, listZonesNames);
+            //sa.assertEquals(listZonesNames, listZonesNameSort);
+
+            //press Cancel;
+            List<WebElement> listButtons = driver.findElement(By.className("button-set")).findElements(By.cssSelector("button"));
+            for(WebElement button:listButtons){
+                if(button.getText().contains("Cancel")) {
+                    button.click();
+                    return;
+                }
+            }
+
+        }
     }
+
+
+
 
 }
 
