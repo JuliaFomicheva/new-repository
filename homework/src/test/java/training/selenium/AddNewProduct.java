@@ -68,7 +68,8 @@ public class AddNewProduct {
         driver.findElement(By.name("gross_prices[EUR]")).sendKeys("0.5");
         driver.findElement(By.name("save")).click();
         driver.navigate().to("http://localhost/litecart/admin/?app=catalog&doc=catalog&category_id=1");
-        driver.navigate().to("http://localhost/litecart/en/rubber-ducks-c-1/doggy-p-50");
+        driver.findElement(By.xpath("//table//*[contains(text(), 'doggy')]"));
+
 
 
 
@@ -86,8 +87,6 @@ public class AddNewProduct {
 
         return null;
     }
-
-
 
     @After
     public void stop() {
