@@ -6,13 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ca6aa96a-81f1-4faa-b658-a7c4fb08ffd7" name="Default Changelist" comment="AdminPanel&#10;menu navigation">
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/Lesson13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/Lesson14.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/MyThirdTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/ProductStikers.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/TestInExplorer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/WorkWithTheBasket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/AdminPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/AdminPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/DucksSticers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/DucksSticers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/MyFirstTest.java" afterDir="false" />
@@ -528,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646995005512</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Following links">
+      <created>1647183320573</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1647183320573</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -557,7 +561,8 @@
     <MESSAGE value="Ducks stickers" />
     <MESSAGE value="XPath inquiry" />
     <MESSAGE value="Geozones&#10;alphabetical order check" />
-    <option name="LAST_COMMIT_MESSAGE" value="Geozones&#10;alphabetical order check" />
+    <MESSAGE value="Following links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Following links" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
