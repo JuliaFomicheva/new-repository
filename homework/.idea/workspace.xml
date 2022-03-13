@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca6aa96a-81f1-4faa-b658-a7c4fb08ffd7" name="Default Changelist" comment="AdminPanel&#10;menu navigation">
-      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/Geozone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/Lesson10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/LessonEight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/Lesson13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/Lesson14.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/MyThirdTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/ProductStikers.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/TestInExplorer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/WorkWithTheBasket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/AdminPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/AdminPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/DucksSticers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/DucksSticers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/MyFirstTest.java" afterDir="false" />
@@ -95,34 +95,13 @@
       <recent name="C:\projects\new-repository\homework\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Geozone">
+  <component name="RunManager" selected="JUnit.Lesson14">
     <configuration name="AddNewProduct.AddNewProduct" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;training.selenium.AddNewProduct.AddNewProduct&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AddNewProduct.Information" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;training.selenium.AddNewProduct.Information&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -201,6 +180,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="homework [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" isNew="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="AddNewProduct" type="JUnit" factoryName="JUnit">
       <module name="homework.test" />
       <option name="PACKAGE_NAME" value="training.selenium" />
@@ -255,6 +255,26 @@
       <module name="homework.test" />
       <option name="PACKAGE_NAME" value="training.selenium" />
       <option name="MAIN_CLASS_NAME" value="training.selenium.Geozone" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson13" type="JUnit" factoryName="JUnit">
+      <module name="homework.test" />
+      <option name="PACKAGE_NAME" value="training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="training.selenium.Lesson13" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson14" type="JUnit" factoryName="JUnit">
+      <module name="homework.test" />
+      <option name="PACKAGE_NAME" value="training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="training.selenium.Lesson14" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
@@ -376,10 +396,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.AddNewProduct.Information" />
       <item itemvalue="Gradle.AddNewProduct.Prices" />
       <item itemvalue="Gradle.AddNewProduct.AddNewProduct" />
       <item itemvalue="Gradle.AlphabetOrder" />
+      <item itemvalue="Gradle.Geozone.task9" />
+      <item itemvalue="Gradle.homework [clean]" />
       <item itemvalue="JUnit.AlphabetOrder" />
       <item itemvalue="JUnit.LessonEight" />
       <item itemvalue="JUnit.DucksSticers" />
@@ -387,6 +408,8 @@
       <item itemvalue="JUnit.CreateNewAccount" />
       <item itemvalue="JUnit.AddNewProduct" />
       <item itemvalue="JUnit.WorkWithTheBasket" />
+      <item itemvalue="JUnit.Lesson13" />
+      <item itemvalue="JUnit.Lesson14" />
       <item itemvalue="JUnit.MyFirstTest" />
       <item itemvalue="JUnit.AdminPanel" />
       <item itemvalue="JUnit.ProductStikers" />
@@ -394,15 +417,14 @@
       <item itemvalue="JUnit.MyThirdTest" />
       <item itemvalue="JUnit.TestInExplorer" />
       <item itemvalue="TestNG.MySecondTest" />
-      <item itemvalue="Gradle.Geozone.task9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.homework [clean]" />
         <item itemvalue="Gradle.Geozone.task9" />
         <item itemvalue="Gradle.AlphabetOrder" />
         <item itemvalue="Gradle.AddNewProduct.AddNewProduct" />
         <item itemvalue="Gradle.AddNewProduct.Prices" />
-        <item itemvalue="Gradle.AddNewProduct.Information" />
       </list>
     </recent_temporary>
   </component>
@@ -499,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646934308322</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Geozones&#10;alphabetical order check">
+      <created>1646995005512</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1646995005512</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -527,7 +556,8 @@
     <MESSAGE value="Added test for Geo Zones" />
     <MESSAGE value="Ducks stickers" />
     <MESSAGE value="XPath inquiry" />
-    <option name="LAST_COMMIT_MESSAGE" value="XPath inquiry" />
+    <MESSAGE value="Geozones&#10;alphabetical order check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Geozones&#10;alphabetical order check" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -571,6 +601,26 @@
           <url>file://$PROJECT_DIR$/src/test/java/training/selenium/AlphabetOrder.java</url>
           <line>100</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/training/selenium/Lesson14.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/training/selenium/Lesson14.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/training/selenium/Lesson14.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/training/selenium/Lesson14.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
