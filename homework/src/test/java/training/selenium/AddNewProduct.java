@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
+import java.util.UUID;
 
 import static org.openqa.selenium.By.*;
 
@@ -33,7 +34,8 @@ public class AddNewProduct {
     public void AddNewProduct() {
         driver.navigate().to("http://localhost/litecart/admin/?category_id=0&app=catalog&doc=edit_product");
         driver.findElement(By.cssSelector("#tab-general > table > tbody > tr:nth-child(1) > td > label:nth-child(3) > input[type=radio]")).click();
-        driver.findElement(By.name("name[en]")).sendKeys("doggy");
+        String nameProduct = "Doggy_" + UUID.randomUUID().toString().substring(0,7);
+        driver.findElement(By.name("name[en]")).sendKeys(nameProduct);
         driver.findElement(By.name("code")).sendKeys("12345");
         driver.findElement(By.cssSelector("#tab-general > table > tbody > tr:nth-child(4) > td > div > table > tbody > tr:nth-child(2) > td:nth-child(1) > input[type=checkbox]")).click();
         driver.findElement(By.cssSelector("#tab-general > table > tbody > tr:nth-child(4) > td > div > table > tbody > tr:nth-child(1) > td:nth-child(1) > input[type=checkbox]")).click();
@@ -68,7 +70,7 @@ public class AddNewProduct {
         driver.findElement(By.name("gross_prices[EUR]")).sendKeys("0.5");
         driver.findElement(By.name("save")).click();
         driver.navigate().to("http://localhost/litecart/admin/?app=catalog&doc=catalog&category_id=1");
-        driver.findElement(By.xpath("//table//*[contains(text(), 'doggy')]"));
+        driver.findElement(By.xpath("//table//*[contains(text(), '" + nameProduct + "')]")).click();
 
 
 
