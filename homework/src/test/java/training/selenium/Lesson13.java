@@ -23,7 +23,7 @@ public class Lesson13 {
 }
 
     @Test
-    public void task13 () {
+    public void WorkWithTheBasket () {
         String url = "http://localhost/litecart/en/";
         driver.get(url);
         addToTheBasket();
